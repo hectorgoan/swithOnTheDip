@@ -59,6 +59,12 @@ header button {
     color: red;
 }
 
+.container .hourly {
+    display: flex;
+    font-size: 10px;
+    color: white;
+}
+
 h1 {
     font-size: 12px;
 }
