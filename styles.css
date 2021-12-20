@@ -66,14 +66,17 @@ body {
 
 .container .hourly .hours-block .expensive {
     background: red;
+    color: #3e0505;
 }
 
 .container .hourly .hours-block .medium {
     background: orange;
+    color: #462600;
 }
 
 .container .hourly .hours-block .cheap {
     background: green;
+    color: #002700;
 }
 
 h1 {
