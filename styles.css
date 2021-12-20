@@ -47,7 +47,7 @@ body {
 
 .container .hourly {
     display: flex;
-    font-size: 9px;
+    font-size: 10px;
     color: white;
     justify-content: space-between;
 }
