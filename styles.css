@@ -11,25 +11,6 @@ body {
     background: black;
 }
 
-header {
-    box-shadow: 0 0px 20px rgb(76 175 80 / 77%);
-    margin: 0.2rem;
-    border-radius: 10px;
-    padding: 0.1rem;
-    background-color: #1b995e;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header button {
-    border: 0px;
-    border-radius: 7px;
-    margin: 5px;
-    color: darkgreen;
-}
-
 .container {
     box-shadow: 0 0px 8px #ff5722;
     margin: 0.2rem;
@@ -37,6 +18,11 @@ header button {
     padding: 0.11rem;
     text-align: center;
     background: #7fff001f;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-around;
 }
 
 .container .dashboard {
@@ -63,6 +49,23 @@ header button {
     display: flex;
     font-size: 10px;
     color: white;
+}
+
+.container .hourly .hours-block .hour {
+    border: 1px solid #ffffff1f;
+    border-radius: 9px;
+}
+
+.container .hourly .hours-block .expensive {
+    background: red;
+}
+
+.container .hourly .hours-block .medium {
+    background: orange;
+}
+
+.container .hourly .hours-block .cheap {
+    background: green;
 }
 
 h1 {
@@ -103,11 +106,9 @@ h1 {
 }
 
 .container button {
-    font: inherit;
-    cursor: pointer;
-    border: 1px solid #ff0077;
-    background-color: #ff0077;
-    color: white;
-    padding: 0.05rem 1rem;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    border: 0px;
+    border-radius: 7px;
+    margin: 0px;
+    color: darkgreen;
+    font-size: 10px;
 }

@@ -18,7 +18,6 @@ const app = Vue.createApp({
     },
     methods: {
         reloadApp() {
-            console.log("reload");
             window.location.reload();
         },
     },
