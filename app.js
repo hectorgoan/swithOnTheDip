@@ -16,7 +16,12 @@ const app = Vue.createApp({
         this.todayDate = today.toLocaleDateString();
         this.todayDateTime = today.toLocaleTimeString();
     },
-    methods: {},
+    methods: {
+        reloadApp() {
+            console.log("reload");
+            window.location.reload();
+        },
+    },
 });
 
 app.mount("#myApp");

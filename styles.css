@@ -19,6 +19,15 @@ header {
     background-color: #1b995e;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header button {
+    border: 0px;
+    border-radius: 7px;
+    margin: 5px;
+    color: darkgreen;
 }
 
 .container {
