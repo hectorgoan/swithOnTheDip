@@ -16,7 +16,21 @@
         <h1>Precio Luz - {{todayDate}}</h1>
     </header>
     <section class="container">
-        <h2>Precio ahora mismo - {{todayDateTime}}</h2>
+        <h2>Hoy</h2>
+        <div class="dashboard">
+            <div class="block lower">
+                <span>Más bajo - {{lowerHours}}</span>
+                <span>{{lowerPrice}} €/kWh</span>
+            </div>
+            <div class="block">
+                <span>Ahora - {{todayDateTime}}</span>
+                <span>{{priceNow}} €/kWh</span>
+            </div>
+            <div class="block higher">
+                <span>Más alto - {{higherHours}}</span>
+                <span>{{higherPrice}} €/kWh</span>
+            </div>
+        </div>
     </section>
     <section class="container">
         <h2>Precio por horas</h2>

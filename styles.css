@@ -30,6 +30,26 @@ header {
     background: #7fff001f;
 }
 
+.container .dashboard {
+    display: flex;
+    font-size: 10px;
+    color: white;
+    justify-content: space-around;
+}
+
+.container .dashboard .block {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .dashboard .lower {
+    color: green;
+}
+
+.container .dashboard .higher {
+    color: red;
+}
+
 h1 {
     font-size: 12px;
 }
@@ -37,7 +57,7 @@ h1 {
 .container h2 {
     font-size: 10px;
     color: #1b995e;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.2rem 0;
 }
 
 .container ul {
