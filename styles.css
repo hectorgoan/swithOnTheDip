@@ -49,11 +49,19 @@ body {
     display: flex;
     font-size: 9px;
     color: white;
+    justify-content: space-between;
+}
+
+.container .hourly .hours-block {
+    flex-grow: 1;
 }
 
 .container .hourly .hours-block .hour {
     border: 1px solid #ffffff1f;
     border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
 }
 
 .container .hourly .hours-block .expensive {
